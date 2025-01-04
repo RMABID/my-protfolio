@@ -1,8 +1,10 @@
 import { TypeAnimation } from "react-type-animation";
-import banner_img from "../assets/avatar.svg";
+import banner_img from "../assets/abid.png";
 import { FaFacebook, FaGithub, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import cv from "../assets/Abed Ali Imran cv .pdf";
+import { MdOutlineFileDownload } from "react-icons/md";
 const Banner = () => {
   return (
     <section
@@ -26,11 +28,11 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-semibold uppercase leading-[1]"
+              className="mb-6 text-[26px] lg:text-[60px] font-semibold uppercase leading-[1]"
             >
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
-                sequence={["Developer", 2000, "Designer", 2000]}
+                sequence={["Frontend Developer", 2000, "Web Developer", 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
@@ -44,9 +46,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
-              eveniet harum quisquam consectetur suscipit totam qui dolor
-              officiis magni! Ut.
+              a passionate Frontend Developer crafting responsive, user-friendly
+              web interfaces with clean code, creativity, and modern design
+              principles
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -55,9 +57,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Profile
+              <a href={cv}>
+                <button className="btn flex items-center gap-x-2 btn-lg">
+                  Download CV{" "}
+                  <span className="text-xl">
+                    <MdOutlineFileDownload />
+                  </span>
+                </button>
               </a>
             </motion.div>
             <motion.div
@@ -82,10 +88,9 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-      
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img src={banner_img} alt="" />
+            <img className="rounded-full" src={banner_img} alt="" />
           </motion.div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full overflow-hidden z-50 lg:bottom-8 bottom-2">
       <div className="container mx-auto">
-        <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full mx-w-[460px] flex mx-auto px-5 items-center justify-between text-2xl text-white/50">
+        <div className="lg:w-6/12 bg-black/20 h-[96px] backdrop-blur-2xl rounded-full mx-w-[460px] flex mx-auto px-5 items-center justify-between text-2xl text-white/50">
           <Link
             to="home"
             activeClass="active"

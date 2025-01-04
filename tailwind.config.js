@@ -24,8 +24,8 @@ export default {
         accent: "#B809C3",
       },
       backgroundImage: {
-        site: "url('./src/assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
+        site: "url('./dist/assets/site-bg-BI8bl0QM.jpg')",
+        about: "url('./')",
         services: "url('./assets/services.png')",
       },
     },
