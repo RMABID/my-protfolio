@@ -3,27 +3,27 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const services = [
   {
-    name: "UI/UX Design",
+    name: "Font-End Developer",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab debitis provident! Sed ad aut excepturi eum? Aspernatur, nesciunt corporis!",
+      "Experienced developer crafting innovative, scalable, and efficient web solutions with expertise in modern technologies, clean code, and user-focused design.",
+    link: "Learn more",
+  },
+  {
+    name: "Designer",
+    description:
+      "Creative designer delivering visually captivating, user-centric designs with precision, blending aesthetics and functionality for impactful digital experiences!",
+    link: "Learn more",
+  },
+  {
+    name: "Backend-Developer",
+    description:
+      "Skilled backend developer building secure, scalable, and efficient server-side solutions with clean code, robust databases, and optimized performance.",
     link: "Learn more",
   },
   {
     name: "UI/UX Design",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab debitis provident! Sed ad aut excepturi eum? Aspernatur, nesciunt corporis!",
-    link: "Learn more",
-  },
-  {
-    name: "UI/UX Design",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab debitis provident! Sed ad aut excepturi eum? Aspernatur, nesciunt corporis!",
-    link: "Learn more",
-  },
-  {
-    name: "UI/UX Design",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab debitis provident! Sed ad aut excepturi eum? Aspernatur, nesciunt corporis!",
+      "Passionate UI/UX designer crafting intuitive, user-friendly interfaces with a focus on aesthetics, functionality, and seamless user experiences!",
     link: "Learn more",
   },
 ];
