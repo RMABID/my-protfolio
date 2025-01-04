@@ -30,7 +30,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-center  gap-4">
-                  <p className="w-14 h-14 rounded-xl bg-[#1E1D3E] flex items-center justify-center border">
+                  <p className="w-14  h-14 rounded-xl bg-[#1E1D3E] flex items-center justify-center border">
                     <IoLocationSharp />
                   </p>
                   <div>
@@ -64,7 +64,7 @@ const Contact = () => {
               className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white transition-all focus:border-accent resize-none mb-12"
               placeholder="Your Message"
             ></textarea>
-            <button type="submit" className="btn btn-lg">
+            <button type="submit" className="btn hover:scale-110 transition-all duration-700 btn-lg">
               Send message
             </button>
           </form>

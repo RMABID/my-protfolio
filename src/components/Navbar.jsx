@@ -1,5 +1,6 @@
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsBriefcase, BsChatSquareText, BsClipboardData } from "react-icons/bs";
+import { FaGraduationCap } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -43,6 +44,15 @@ const Navbar = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase></BsBriefcase>
+          </Link>
+          <Link
+            to="education"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <FaGraduationCap></FaGraduationCap>
           </Link>
           <Link
             to="contact"

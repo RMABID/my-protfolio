@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import bg from "../src/assets/site-bg.jpg";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Services />
       <Work />
+      <Education />
       <Contact />
       {/* <div className="h-[4000px]"></div> */}
     </div>

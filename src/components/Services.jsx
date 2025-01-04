@@ -45,20 +45,18 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               I'm a freelance Front-end Developer with 1 years of experience.
             </h3>
-            <button id="work" className="btn btn-sm">See my work</button>
+            <button className="btn btn-sm">See my work</button>
           </motion.div>
           {/* services */}
-          <motion.div
-            variants={fadeIn("left", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="flex-1"
-          >
+          <div className="flex-1">
             <div>
               {services.map((services, index) => {
                 return (
-                  <div
+                  <motion.div
+                    variants={fadeIn("left", 0.5)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.7 }}
                     className="border-b border-white/20 h-[146px] mb-[38px] flex"
                     key={index}
                   >
@@ -81,11 +79,11 @@ const Services = () => {
                         {services?.link}
                       </a>
                     </div>
-                  </div>
+                  </motion.div>
                 );
               })}
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
