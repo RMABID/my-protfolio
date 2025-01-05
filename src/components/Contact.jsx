@@ -22,6 +22,8 @@ const Contact = () => {
             text: "Your From Submit SuccessFully!",
             icon: "success",
           });
+
+          // reset();
         },
         (error) => {
           console.log("FAILED...", error.text);

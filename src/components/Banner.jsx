@@ -28,7 +28,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[26px] lg:text-[60px] font-semibold uppercase leading-[1]"
+              className="mb-6 text-[26px] lg:text-[50px] font-semibold uppercase leading-[1]"
             >
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
@@ -73,13 +73,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-16 max-w-max mx-auto lg:mx-0 "
             >
-              <a href="#">
+              <a href="https://www.youtube.com/@RMabid3045">
                 <FaYoutube></FaYoutube>
               </a>
-              <a href="#">
+              <a href="https://github.com/RMABID">
                 <FaGithub></FaGithub>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/r.m.imran.53983">
                 <FaFacebook></FaFacebook>
               </a>
             </motion.div>
