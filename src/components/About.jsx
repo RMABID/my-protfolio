@@ -18,7 +18,7 @@ const About = () => {
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              // viewport={{ once: false, amount: 0.7 }}
             >
               <Lottie animationData={about_animation}></Lottie>
             </motion.div>
@@ -26,7 +26,7 @@ const About = () => {
               variants={fadeIn("right", 0.5)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              // viewport={{ once: false, amount: 0.7 }}
               className="flex items-center justify-start gap-4 my-6"
             >
               <div className="text-[40px] font-tertiary text-gradient mb-2 ">
@@ -48,16 +48,17 @@ const About = () => {
               variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              // viewport={{ once: false, amount: 0.7 }}
               className="h2 text-accent mb-6"
             >
               About Me
             </motion.h1>
             <motion.p
-              variants={fadeIn("left", 0.5)}
+              className="font-secondary "
+              variants={fadeIn("left", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              // viewport={{ once: false, amount: 0.7 }}
             >
               Hello, I’m Abid, a passionate frontend developer with a strong
               foundation in web development. I have a keen interest in building

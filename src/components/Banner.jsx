@@ -3,7 +3,7 @@ import banner_img from "../assets/abid.png";
 import { FaFacebook, FaGithub, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import cv from "../assets/Abed Ali Imran cv .pdf";
+import cv from "../assets/Resume_of_Abid_Ali_Imran.pdf";
 import { MdOutlineFileDownload } from "react-icons/md";
 const Banner = () => {
   return (
@@ -58,7 +58,7 @@ const Banner = () => {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <a href={cv}>
-                <button className="btn flex items-center gap-x-2 btn-lg">
+                <button className="btn hover:scale-110 transition-all duration-700 ease-linear flex items-center gap-x-2 btn-lg">
                   Download CV{" "}
                   <span className="text-xl">
                     <MdOutlineFileDownload />
@@ -90,7 +90,11 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
           >
-            <img className="rounded-full" src={banner_img} alt="" />
+            <img
+              className="rounded-full hover:w-[480px] hover:h-[480px] border-accent hover:border hover:scale-110 transition-all duration-700 ease-in-out"
+              src={banner_img}
+              alt=""
+            />
           </motion.div>
         </div>
       </div>
